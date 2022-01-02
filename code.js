@@ -6,12 +6,12 @@ btn.addEventListener("click", openModel);
 popup.addEventListener("click", closeModel);
 close.addEventListener("click", closeModel);
 
-popup.addEventListener("click", (e) => {
-  const evt = e.target.classList;
-  if (evt.contains("popup") || evt.contains("close")) {
-    closeModal();
-  }
-});
+// popup.addEventListener("click", (e) => {
+//   const evt = e.target.classList;
+//   if (evt.contains("popup") || evt.contains("close")) {
+//     closeModal();
+//   }
+// });
 
 function openModel(e){
   e.preventDefault();
